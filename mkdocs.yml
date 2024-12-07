@@ -12,6 +12,9 @@ extra_css:
 markdown_extensions:
   - pymdownx.mark
   - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.snippets:
       base_path: ["docs"]
   - footnotes
