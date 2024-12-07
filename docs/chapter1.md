@@ -188,6 +188,30 @@ Aν, επιπλέον, είχε χρησιμοποιηθεί και ο διακ�
 
 H ISO/IEC JTC1/SC22/WG14 είναι η διεθνής ομάδα εργασίας προτυποποίησης της C. Η σελίδα της ομάδας εργασίας, όπου δημοσιεύεται οτιδήποτε σχετικό με την πορεία προτυποποίησης, είναι η <a href="https://www.open-std.org/JTC1/SC22/wg14/" target="_blank">https://www.open‐std.org/JTC1/SC22/wg14/</a>. Εκεί μπορεί κανείς να εντοπίσει χρήσιμες πληροφορίες αλλά και λεπτομέρειες για τα πρότυπα της γλώσσας C.
 
+### 1.7.4 Ιστοσελίδες ###
+
+Το stackoverflow έχει δικαίως αποκτήσει τη φήμη της κοινότητας στην οποία οι προγραμματιστές μπορούν να αναζητούν απαντήσεις υψηλής ποιότητας σε δικά τους ερωτήματα ή σε ερωτήματα άλλων ακόμα και για τα πλέον απαιτητικά θέματα τεχνολογίας. Μάλιστα, η stackoverflow ιστοσελίδα <a href="https://stackoverflow.com/tags/c/info/" target="_blank">https://stackoverflow.com/tags/c/info </a>αφορά ερωτήσεις αποκλειστικά για τη C. Ενδιαφέρουσες συζητήσεις για τη C διεξάγονται στο φόρουμ <a href="https://groups.google.com/g/comp.lang.c" target="_blank">https://groups.google.com/g/comp.lang.c</a>, ενώ απαντήσεις σε συχνές ερωτήσεις για τη C μπορούν να εντοπιστούν στο <a href="https://c‐faq.com/" target="_blank">https://c‐faq.com/</a>. To reddit έχει, επίσης, κοινότητες αφιερωμένες στη C, όπως την <a href="https://www.reddit.com/r/C_Programming/" target="_blank">https://www.reddit.com/r/C_Programming/</a>, που αξίζει κανείς να επισκεφτεί. Μια ακόμα χρήσιμη ιστοσελίδα είναι η <a href="https://en.cppreference.com/w/c" target="_blank">https://en.cppreference.com/w/c</a>, που αποτελεί σημείο αναφοράς για την πρότυπη βιβλιοθήκη της C και τις δυνατότητές της. Τέλος, αξίζει να αναφερθεί η εξαιρετική προσπάθεια του Brian Hall τόσο στο “Beej’s Guide to C Programming” <a href="https://beej.us/guide/bgc/" target="_blank">(https://beej.us/guide/bgc/)</a>όσο και στο “Beej’s Guide to C Programming—Library Reference” <a href="https://beej.us/guide/bgclr/" target="_blank">(https://beej.us/guide/bgclr/)</a>, που περιγράφει τόσο τη γλώσσα C όσο και την πρότυπη βιβλιοθήκη της.
+
+### 1.7.5 Blogs ###
+
+Χρήσιμες και ενδιαφέρουσες είναι και οι τακτικές δημοσιεύσεις σε blogs με θέμα τη C, που γίνονται από τους Chris Wellons στο <a href="https://nullprogram.com/" target="_blank">https://nullprogram.com/</a>, Jens Gustedt στο <a href="https://gustedt.wordpress.com/" target="_blank">https://gustedt.wordpress.com/</a>, JeanHeyd Meneide στο <a href="https://thephd.dev/" target="_blank">https://thephd.dev/</a>, Jakub Łukasiewicz στο <a href="https://jorengarenar.github.io/#blog" target="_blank">https://jorengarenar.github.io/#blog</a>, Dan Gookin στο <a href="https://c-for-dummies.com/blog/" target="_blank">https://c‐for‐dummies.com/blog/</a> και άλλους.
+
+## 1.8 Ασκήσεις ##
+
+1. Γράψτε πρόγραμμα που να εμφανίζει σε διαδοχικές γραμμές το όνομά σας και τη διεύθυνσή σας. Μεταγλωττίστε και εκτελέστε το πρόγραμμα. Εξετάστε τα μεγέθη σε bytes του αρχείου πηγαίου κώδικα και του αρχείου εκτελέσιμου κώδικα. 
+
+Τι παρατηρείτε;
+
+
+2. Μεταγλωττίστε και εκτελέστε τον κώδικα της παραγράφου 1.6. Δοκιμάστε να εισαγάγετε ένα προς ένα τα ακόλουθα λάθη στον κώδικα:
+
+• Διαγραφή μιας από τις δύο αγκύλες του κώδικα.
+• Διαγραφή μιας από τις δύο παρενθέσεις της printf.
+• Διαγραφή της γραμμής που περιέχει το #include.
+• Εισαγωγή τυπογραφικού σφάλματος στη γραφή του main (π.χ. εισάγετε mian).
+• Εισαγωγή τυπογραφικού σφάλματος στη γραφή του printf.
+• Διαγραφή του ερωτηματικού στο τέλος της εντολής printf
+
 
 [^1]: Stephen Kell. “Some were meant for C: the endurance of an unmanageable language”. Στο: Proceedings of the 2017 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software. 2017, σσ. 229–245.
 
