@@ -1,0 +1,37 @@
+site_name: Μια σύγχρονη προσ35έγγιση στη γλώσσα C
+theme:
+  name: material
+  features:
+    -navigation.tabs
+    -content.code.copy
+  language: en
+
+extra_css:
+  - 'css/styles.css'
+
+markdown_extensions:
+  - pymdownx.mark
+  - tables
+  - pymdownx.snippets:
+      base_path: ["docs"]
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+plugins:
+    - search
+    - awesome-pages
+
+copyright: | 
+  Τζάλλας Αλέξανδρος, Γκόγκος Χρήστος, Τσούλος Ιωάννης &copy 2025
+
