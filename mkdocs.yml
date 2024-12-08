@@ -1,27 +1,29 @@
 site_name: Μια σύγχρονη προσ35έγγιση στη γλώσσα C
 theme:
   name: material
+  language: en
   features:
     -navigation.tabs
     -content.code.copy
-  language: en
+  
 
 extra_css:
   - 'css/styles.css'
 
 markdown_extensions:
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
   - pymdownx.mark
   - tables
-  - def_list
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.snippets:
       base_path: ["docs"]
-  - footnotes
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
-  - pymdownx.highlight
-  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
