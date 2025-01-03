@@ -15,11 +15,12 @@ $ mkdocs serve
 ## Link to external link
 ```
 <a href="https://en.cppreference.com/w/c/language/history" target="_blank">cppreference.com History of C</a>
+<a href="" target="_blank"></a>
 ```
 
 ## Change font in a word to be programming style
 ```
-<span class="p-style">-Wall</span>
+<span class="p-style"></span>
 ```
 ## Various topics
 * [Applying .gitignore to committed files](https://stackoverflow.com/questions/7527982/applying-gitignore-to-committed-files)
