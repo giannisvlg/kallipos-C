@@ -13,6 +13,9 @@ extra_css:
 markdown_extensions:
   - abbr
   - attr_list
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - def_list
   - footnotes
   - markdown_grid_tables
