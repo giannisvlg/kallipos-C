@@ -1,6 +1,7 @@
 # 3. Εντολές ελέγχου και επανάληψης
 
-<i>Σύνοψη</i> Η εντολή <span class="p-style">if</span>, ένθετες <span class="p-style">if</span>, η <span class="p-style">if‐else‐if</span>, ξεκρέμαστο <span class="p-style">if</span>, η εντολή <span class="p-style">switch</span>, οι εντολές επανάληψης <span class="p-style">for</span>, <span class="p-style">while</span> και <span class="p-style">do ... while</span>, ατέρμονοι βρόχοι, ένθετες επαναλήψεις, οι εντολές <span class="p-style">break</span>, <span class="p-style">continue</span> και <span class="p-style">goto</span>.
+<i>Σύνοψη</i> Η εντολή <span class="p-style">if</span>, ένθετες <span class="p-style">if</span>, η <span class="p-style">if‐else‐if</span>, ξεκρέμαστο <span class="p-style">if</span>, η εντολή <span class="p-style">switch</span>, οι εντολές επανάληψης <span class="p-style">for</span>, <span class="p-style">while</span> και <span class="p-style">do ... while</span>, ατέρμονοι βρόχοι, ένθετες επαναλήψεις, οι εντολές <span class="p-style">break</span>, <span class="p-style">continue</span> και <span class="p-style">goto</span>.  
+
 <i>Προαπαιτούμενη γνώση</i> Τύποι δεδομένων, είσοδος/έξοδος.
 
 ## 3.1 Εισαγωγή
