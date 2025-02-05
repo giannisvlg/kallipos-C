@@ -775,4 +775,4 @@ Eντοπίστε τις διαφορές των προσδιοριστών μο
 
 [^3]: C Operator Precedence. <a href="https://en.cppreference.com/w/c/language/operator_precedence" target="_blank">https://en.cppreference.com/w/c/language/operator_precedence</a>. Accessed: 2023-06-01.
 
-[^4]: Sean Eron Anderson. Floating Point Numbers. Why floating-point numbers are needed? https://floating‐point‐gui.de/formats/fp/. Accessed: 2023-06-01.
+[^4]: Sean Eron Anderson. Floating Point Numbers. Why floating-point numbers are needed? <a href="https://floating-point-gui.de/formats/fp/" target="_blank">https://floating‐point‐gui.de/formats/fp/</a>. Accessed: 2023-06-01.
