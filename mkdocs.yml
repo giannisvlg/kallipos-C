@@ -1,11 +1,13 @@
-site_name: Μια σύγχρονη προσ35έγγιση στη γλώσσα C
+site_name: Μια σύγχρονη προσέγγιση στη γλώσσα C
 theme:
   name: material
   language: en
   features:
-    -navigation.tabs
+    #-navigation.tabs
+    #-navigation.prune
     -content.code.copy
-  
+    -toc.follow
+    #-toc.integrate
 
 extra_css:
   - 'css/styles.css'
@@ -13,6 +15,7 @@ extra_css:
 markdown_extensions:
   - abbr
   - attr_list
+  - def_list
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -21,7 +24,13 @@ markdown_extensions:
   - markdown_grid_tables
   - pymdownx.mark
   - tables
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.highlight
   - pymdownx.tasklist:
