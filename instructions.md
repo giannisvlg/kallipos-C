@@ -17,7 +17,9 @@ $ mkdocs serve
 <a href="https://en.cppreference.com/w/c/language/history" target="_blank">cppreference.com History of C</a>
 <a href="" target="_blank"></a>
 ```
-
+```
+![ch4_p1.png](\src\images\ch4_p1.png){ align=center } --> Image import
+```
 ## Change font in a word to be programming style
 ```
 <span class="p-style"></span>
