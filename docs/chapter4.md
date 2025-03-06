@@ -120,7 +120,7 @@ clang: error: linker command failed with exit code 1 (use ‐v to see invocation
 
 
 
-![ch4_memory_layout.png](./src/images/ch4_memory_layout.png)){ .center }
+![ch4_memory_layout.png](src/images/ch4_memory_layout.png){ .center }
 
 <div style="text-align: center;"><b>Σχήμα 4.2:</b><i> Διάταξη μνήμης (memory layout).</i></div>  
 
@@ -285,7 +285,7 @@ Move disk 2 from B to C
 Move disk 1 from A to C
 ```
 
-![ch4_hanoi3.png](./src/images/ch4_hanoi3.png)  
+![ch4_hanoi3.png](src/images/ch4_hanoi3.png)  
 
 </div>
 
