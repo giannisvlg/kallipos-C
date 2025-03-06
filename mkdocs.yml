@@ -3,11 +3,12 @@ theme:
   name: material
   language: en
   features:
+    - content.code.copy
+    - toc.follow
+    - navigation.instant.preview
+    #-toc.integrate
     #-navigation.tabs
     #-navigation.prune
-    -content.code.copy
-    -toc.follow
-    #-toc.integrate
 
 extra_css:
   - 'css/styles.css'
@@ -19,9 +20,9 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
-  - def_list
   - footnotes
   - markdown_grid_tables
+  - md_in_html
   - pymdownx.mark
   - tables
   - pymdownx.superfences:
@@ -49,7 +50,7 @@ markdown_extensions:
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
-  
+
 plugins:
     - search
     - awesome-pages
