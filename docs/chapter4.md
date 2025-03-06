@@ -25,7 +25,7 @@
 <span class="p-style">The sum is: 12</span>.  
 H κλήση της συνάρτησης <span class="p-style">add_numbers()</span> και της συνάρτησης <span class="p-style">printf()</span> από το κύριο πρόγραμμα φαίνεται στο σχήμα 4.1. Τα βέλη δείχνουν ότι κατά την κλήση της συνάρτησης ο έλεγχος μεταβιβάζεται στη συνάρτηση που καλείται, ενώ όταν ολοκληρωθεί η εκτέλεση της συνάρτησης, ο έλεγχος επιστρέφει στην αμέσως επόμενη εντολή μετά την κλήση της συνάρτησης.
 
-![ch4_p1.png](\src\images\ch4_p1.png){ align=center }
+![ch4_p1.png](.\src\images\ch4_p1.png){ align=center }
 
 <div style="text-align: center;"><b>Σχήμα 4.1:</b><i> Κλήση συνάρτησης χρήστη και κλήση της συνάρτησης printf() της πρότυπης βιβλιοθήκης.</i></div>
 
@@ -120,7 +120,7 @@ clang: error: linker command failed with exit code 1 (use ‐v to see invocation
 
 
 
-![ch4_memory_layout.png](\src\images\ch4_memory_layout.png){ .center }
+![ch4_memory_layout.png](.\src\images\ch4_memory_layout.png){ .center }
 
 <div style="text-align: center;"><b>Σχήμα 4.2:</b><i> Διάταξη μνήμης (memory layout).</i></div>  
 
@@ -285,7 +285,7 @@ Move disk 2 from B to C
 Move disk 1 from A to C
 ```
 
-![ch4_hanoi3.png](\src\images\ch4_hanoi3.png)  
+![ch4_hanoi3.png](.\src\images\ch4_hanoi3.png)  
 
 </div>
 
