@@ -271,6 +271,6 @@ int my_3d_array[2][2][3]={{{0}}};
     --8<-- "src/ch5_e4.c"
     ```
 
-[^1]: Edsger W Dijkstra. Why numbering should start at zero (EWD 831). 1982.
+[^1]: Edsger W Dijkstra. <i>Why numbering should start at zero (EWD 831)</i>. 1982.
 
-[^2]: Rosetta Code, sorting algorithms, insertion sort. <a href="https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort" target="_blank">https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort</a>. Accessed: 2023-06-01.
+[^2]: <i>Rosetta Code, sorting algorithms, insertion sort.</i> <a href="https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort" target="_blank">https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort</a>. Accessed: 2023-06-01.

@@ -433,5 +433,6 @@ $$
     ``` 
 
 
-[^1]: Carl Burch. Writing a Towers of Hanoi program. <a href="http://www.cs.cmu.edu/~cburch/survey/recurse/hanoiimpl.html" target="_blank">http://www.cs.cmu.edu/~cburch/survey/recurse/hanoiimpl.html</a>. Accessed: 2023-06-01.
+[^1]: Carl Burch. <i>Writing a Towers of Hanoi program.</i> <a href="http://www.cs.cmu.edu/~cburch/survey/recurse/hanoiimpl.html" target="_blank">http://www.cs.cmu.edu/~cburch/survey/recurse/hanoiimpl.html</a>. Accessed: 2023-06-01.
+
 [^2]: Eric W Weisstein. “Tower of Hanoi”. Στο: <a href="https://mathworld.wolfram.com/TowerofHanoi.html" target="_blank">https://mathworld.wolfram.com/TowerofHanoi.html</a> (2003).

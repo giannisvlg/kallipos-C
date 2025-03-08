@@ -474,8 +474,8 @@ $$
     --8<-- "src/ch3_e4.c"
     ```
 
-[^1]: Edsger W Dijkstra. “Letters to the editor: go to statement considered harmful”. Στο: Communications of the ACM 11.3 (1968), σσ. 147–148.
+[^1]: Edsger W Dijkstra. “Letters to the editor: go to statement considered harmful”. Στο: </i>Communications of the ACM </i> 11.3 (1968), σσ. 147–148.
 
 [^2]: Brian Foote και Joseph Yoder. “Big ball of mud”. Στο: Pattern languages of program design 4 (1997), σσ. 654–692.
 
-[^3]: Delroy A. Brinkerhoff. Object Oriented Proggramming using C++. Supplemental: Legitimate Uses For goto. <a href="https://icarus.cs.weber.edu/~dab/cs1410/textbook/3.Control/goto.html" target="_blank">https://icarus.cs.weber.edu/~dab/cs1410/textbook/3.Control/goto.html</a>. Accessed: 2023-06-01.
+[^3]: Delroy A. Brinkerhoff. <i>Object Oriented Proggramming using C++. Supplemental: Legitimate Uses For goto.</i> <a href="https://icarus.cs.weber.edu/~dab/cs1410/textbook/3.Control/goto.html" target="_blank">https://icarus.cs.weber.edu/~dab/cs1410/textbook/3.Control/goto.html</a>. Accessed: 2023-06-01.

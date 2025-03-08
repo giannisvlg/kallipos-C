@@ -210,18 +210,18 @@ H ISO/IEC JTC1/SC22/WG14 είναι η διεθνής ομάδα εργασία�
 
 Παρατηρήστε τα μηνύματα που εμφανίζει ο μεταγλωττιστής. Καταγράψτε ποια από αυτά, κατά τη γνώμη σας, περιγράφουν με σαφήνεια την πηγή του λάθους και ποια είναι δυσνόητα ή ακόμα και παραπλανητικά.
 
-[^1]: Stephen Kell. “Some were meant for C: the endurance of an unmanageable language”. Στο: Proceedings of the 2017 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software. 2017, σσ. 229–245.
+[^1]: Stephen Kell. “Some were meant for C: the endurance of an unmanageable language”. Στο: <i>Proceedings of the 2017 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software.</i> 2017, σσ. 229–245.
 
-[^2]: David Chisnall. “C is not a low-level language”. Στο: Communications of the ACM 61.7 (2018), σσ. 44–48.
+[^2]: David Chisnall. “C is not a low-level language”. Στο: <i>Communications of the ACM</i> 61.7 (2018), σσ. 44–48.
 
-[^3]: D.M. Ritchie και B.W. Kernighan. The C programming language, 2nd edition. Pearson, 1988.
+[^3]: D.M. Ritchie και B.W. Kernighan. <i>The C programming language, 2nd edition</i>. Pearson, 1988.
 
-[^4]: Peter Van der Linden. Expert C programming: deep C secrets. Prentice Hall Professional, 1994.
+[^4]: Peter Van der Linden. <i>Expert C programming: deep C secrets.</i> Prentice Hall Professional, 1994.
 
-[^5]: Samuel P Harbison και Guy L Steele. C: A reference manual. Prentice Hall PTR, 2002.
+[^5]: Samuel P Harbison και Guy L Steele.<i> C: A reference manual.</i> Prentice Hall PTR, 2002.
 
-[^6]: Ben Klemens. 21st century C: C tips from the new school. ” O’Reilly Media, Inc.”, 2014.
+[^6]: Ben Klemens.<i> 21st century C: C tips from the new school. ”</i> O’Reilly Media, Inc.”, 2014.
 
-[^7]: Robert C Seacord. Effective C: An Introduction to Professional C Programming. No Starch Press, 2020.
+[^7]: Robert C Seacord.<i> Effective C: An Introduction to Professional C Programming.</i> No Starch Press, 2020.
 
-[^8]: Jens Gustedt. Modern C. Manning, 2019.
+[^8]: Jens Gustedt.<i> Modern C.</i> Manning, 2019.

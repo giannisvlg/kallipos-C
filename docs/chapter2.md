@@ -769,10 +769,10 @@ Eντοπίστε τις διαφορές των προσδιοριστών μο
 
 
 
-[^1]: Don Colton. Secrets of ”printf”. <a href="https://inst.eecs.berkeley.edu/~cs61c/fa19/hw/hw2/printf_colton.pdf" target="_blank">https://inst.eecs.berkeley.edu/~cs61c/fa19/hw/hw2/printf_colton.pdf</a> Accessed: 2023-06-01. 2015
+[^1]: Don Colton. <i>Secrets of ”printf”.</i> <a href="https://inst.eecs.berkeley.edu/~cs61c/fa19/hw/hw2/printf_colton.pdf" target="_blank">https://inst.eecs.berkeley.edu/~cs61c/fa19/hw/hw2/printf_colton.pdf</a> Accessed: 2023-06-01. 2015
 
-[^2]: Sean Eron Anderson. Bit Twiddling Hacks. <a href="http://graphics.stanford.edu/~seander/bithacks.html" target="_blank">http://graphics.stanford.edu/~seander/bithacks.html</a>. Accessed: 2023-06-01
+[^2]: Sean Eron Anderson. <i>Bit Twiddling Hacks.</i> <a href="http://graphics.stanford.edu/~seander/bithacks.html" target="_blank">http://graphics.stanford.edu/~seander/bithacks.html</a>. Accessed: 2023-06-01
 
-[^3]: C Operator Precedence. <a href="https://en.cppreference.com/w/c/language/operator_precedence" target="_blank">https://en.cppreference.com/w/c/language/operator_precedence</a>. Accessed: 2023-06-01.
+[^3]: <i>C Operator Precedence.</i> <a href="https://en.cppreference.com/w/c/language/operator_precedence" target="_blank">https://en.cppreference.com/w/c/language/operator_precedence</a>. Accessed: 2023-06-01.
 
-[^4]: Sean Eron Anderson. Floating Point Numbers. Why floating-point numbers are needed? <a href="https://floating-point-gui.de/formats/fp/" target="_blank">https://floating‐point‐gui.de/formats/fp/</a>. Accessed: 2023-06-01.
+[^4]: Sean Eron Anderson. <i>Floating Point Numbers. Why floating-point numbers are needed?</i> <a href="https://floating-point-gui.de/formats/fp/" target="_blank">https://floating‐point‐gui.de/formats/fp/</a>. Accessed: 2023-06-01.
