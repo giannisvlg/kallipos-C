@@ -384,4 +384,4 @@ Double: 3.140000
     ```
 
 
-[^1]: Andreas Heck. <i>Structures in C: From Basics to Memory Alignment.</i> **<a href="https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/" target="_blank">https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/</a>. Accessed:2023-12-01.
+[^1]: Andreas Heck. <i>Structures in C: From Basics to Memory Alignment.</i> <a href="https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/" target="_blank">https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/</a>. Accessed:2023-12-01.
