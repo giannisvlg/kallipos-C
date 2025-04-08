@@ -1,14 +1,36 @@
 site_name: Μια σύγχρονη προσέγγιση στη γλώσσα C
 theme:
+  logo: src/images/frontcover.png
   name: material
+  palette:
+
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: 
+      accent: 
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: teal
+      accent: 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   language: en
   features:
     - content.code.copy
     - toc.follow
     - navigation.instant.preview
-    #-toc.integrate
-    #-navigation.tabs
-    #-navigation.prune
+    - navigation.sections
+    #- navigation.top
+    #- toc.integrate
+    #- navigation.tabs
+    #- navigation.prune
 
 extra_css:
   - 'css/styles.css'
@@ -16,12 +38,15 @@ extra_css:
 
 markdown_extensions:
   - abbr
+  - admonition
   - attr_list
   - def_list
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
   - footnotes
+  - toc:
+      title: Πίνακας περιεχομένων
   - markdown_grid_tables
   - md_in_html
   - pymdownx.mark
@@ -31,7 +56,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.arithmatex:
@@ -58,5 +84,5 @@ plugins:
 
 
 copyright: | 
-  Τζάλλας Αλέξανδρος, Γκόγκος Χρήστος, Τσούλος Ιωάννης &copy 2025
+  Γκόγκος Χρήστος, Τζάλλας Αλέξανδρος, Τσούλος Ιωάννης &copy 2025
 
