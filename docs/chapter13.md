@@ -142,7 +142,7 @@ $ gcc ch13_p1_io.c ch13_p1_main.c ‐L. ‐lutility ‐o ch13_p1_main_s
 ```
 
 Το εκτελέσιμο αρχείο δεν απαιτεί την ύπαρξη στον ίδιο φάκελο ή σε φάκελο που να είναι στο PATH (1), της στατικής βιβλιοθήκης για την εκτέλεσή του. Συνεπώς, αν μεταφερθεί σε έναν νέο κατάλογο μαζί με το αρχείο δεδομένων, το πρόγραμμα θα εκτελεστεί χωρίς πρόβλημα με την ακόλουθη εντολή:
-{ .annotate}
+{ .annotate }
 
 1. Το PATH είναι μια μεταβλητή περιβάλλοντος που καθορίζει τους καταλόγους στους οποίους το σύστημα αναζητά εκτελέσιμα αρχεία.  
 
@@ -305,11 +305,28 @@ $ gcc ch13_p2_geom.o ch13_p2_main.o ‐o ch13_p2_main ‐lm
 
 Τα αρχεία επικεφαλίδων <span class="p-style">interval.h</span> και <span class="p-style">logic.h</span> να δηλώνουν τις συναρτήσεις των αντίστοιχων <span class="p-style">.c</span> αρχείων. Η δήλωση της δομής <span class="p-style">interval</span> να γίνεται στο <span class="p-style">interval.h</span>. Δώστε τις εντολές μεταγλώττισης και σύνδεσης που απαιτούνται για την παραγωγή του τελικού εκτελέσιμου.  
 
-??? tip "Λύση άσκησης 1"
-    ```{.c linenums="1"}
-    --8<-- ""
-    ``` 
+??? tip "Λύση άσκησης 1" 
 
+    === "interval.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e1/interval.c"
+        ```  
+    === "interval.h"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e1/interval.h"
+        ```
+    === "logic.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e1/logic.c"
+        ```
+    === "logic.h"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e1/logic.h"
+        ```
+    === "main.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e1/main.c"
+        ```
 ***Άσκηση 2***  
 Γράψτε ένα makefile για ένα πρόγραμμα που αποτελείται από τα ακόλουθα αρχεία που καλείστε να υλοποιήσετε:
 
@@ -320,10 +337,30 @@ $ gcc ch13_p2_geom.o ch13_p2_main.o ‐o ch13_p2_main ‐lm
 Τα αρχεία επικεφαλίδων <span class="p-style">math_functions.h</span> και <span class="p-style">utils.h</span> να δηλώνουν τις συναρτήσεις των <span class="p-style">.c</span> αρχείων. Το makefile να περιλαμβάνει έναν κανόνα <span class="p-style">all</span> που να δημιουργεί ένα εκτελέσιμο με όνομα <span class="p-style">calculator</span>. Επίσης, να έχει έναν κανόνα <span class="p-style">clean</span> για να καθαρίζει τα αρχεία αντικείμενο και το εκτελέσιμο. Χρησιμοποιήστε μεταβλητές για τον μεταγλωττιστή (π.χ. <span class="p-style">CC</span>) και τους διακόπτες μεταγλώττισης (π.χ. <span class="p-style">CFLAGS</span>).  
 
 ??? tip "Λύση άσκησης 2"
-    ```{.c linenums="1"}
-    --8<-- ""
-    ``` 
-
+    === "math_functions.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e2/math_functions.c"
+        ```  
+    === "math_functions.h"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e2/math_functions.h"
+        ```
+    === "utils.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e2/utils.c"
+        ```
+    === "utils.h"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e2/utils.h"
+        ```
+    === "main.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e2/main.c"
+        ```
+    === "makefile"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e2/makefile"
+        ```
 ***Άσκηση 3***  
 Γράψτε ένα makefile που να υποστηρίζει τη μεταγλώττιση δύο εκδόσεων ενός προγράμματος: της έκδοσης dev για ανάπτυξη (development) και της έκδοσης prod για παραγωγή (production). Το πρόγραμμα να χρησιμοποιεί τα ακόλουθα αρχεία κώδικα που καλείστε να υλοποιήσετε:
 
@@ -331,12 +368,34 @@ $ gcc ch13_p2_geom.o ch13_p2_main.o ‐o ch13_p2_main ‐lm
 * <span class="p-style">utils.c</span>: Παρέχει βοηθητικές συναρτήσεις που είναι κοινές και στις δύο εκδόσεις.
 * <span class="p-style">main.c</span>: Περιέχει την κύρια ροή εκτέλεσης του προγράμματος και τυχόν διαχείριση επιλογών για debugging.
 
-Τα αρχεία επικεφαλίδων <span class="p-style">feature.h</span> και <span class="p-style">utils.h</span> να δηλώνουν τις συναρτήσεις των αντίστοιχων <span class="p-style">.c</span> αρχείων. Ο στόχος <span class="p-style">dev</span> να χρησιμοποιεί τους διακόπτες <span class="p-style">‐g ‐DDEBUG</span> για να ενεργοποιεί την αποσφαλμάτωση. Ο στόχος <span class="p-style">prod</span> να χρησιμοποιεί τους διακόπτες <span class="p-style">‐O3 ‐DNDEBUG</span> για να παράγει βελτιστοποιημένο κώδικα. Να υπάρχει ένας στόχος <span class="p-style">clean</span> για την αφαίρεση όλων των αρχείων που παράγονται κατά τη μεταγλώττιση.  
+Τα αρχεία επικεφαλίδων <span class="p-style">feature.h</span> και <span class="p-style">utils.h</span> να δηλώνουν τις συναρτήσεις των αντίστοιχων <span class="p-style">.c</span> αρχείων. Ο στόχος <span class="p-style">dev</span> να χρησιμοποιεί τους διακόπτες <span class="p-style">‐g ‐DDEBUG</span> για να ενεργοποιεί την αποσφαλμάτωση. Ο στόχος <span class="p-style">prod</span> να χρησιμοποιεί τους διακόπτες <span class="p-style">‐O3  
+‐DNDEBUG</span> για να παράγει βελτιστοποιημένο κώδικα. Να υπάρχει ένας στόχος <span class="p-style">clean</span> για την αφαίρεση όλων των αρχείων που παράγονται κατά τη μεταγλώττιση.  
 
 ??? tip "Λύση άσκησης 3"
-    ```{.c linenums="1"}
-    --8<-- ""
-    ``` 
+    === "feature.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e3/feature.c"
+        ```  
+    === "feature.h"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e3/feature.h"
+        ```
+    === "utils.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e3/utils.c"
+        ```
+    === "utils.h"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e3/utils.h"
+        ```
+    === "main.c"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e3/main.c"
+        ```
+    === "makefile"
+        ```{.c linenums="1"}
+        --8<-- "src/ch13_e3/makefile"
+        ```
 
 ***Άσκηση 4***  
 Γράψτε ένα makefile για τον κώδικα της παραγράφου 13.2.2 στα πρότυπα του τρίτου παραδείγματος makefile που δόθηκε στην παράγραφο 13.4.1. Προσθέστε στόχους για τη δημιουργία τόσο της δυναμικής βιβλιοθήκης όσο και του τελικού εκτελέσιμου.  
