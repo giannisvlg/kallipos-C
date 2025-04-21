@@ -1,8 +1,12 @@
-# Αρχική σελίδα
+---
+title: Το βιβλίο 
+---
+# 
 
 ![frontcover.png](src/images/frontcover.png)
 
-==^^Μια σύγχρονη προσέγγιση στη γλώσσα C^^==
+
+^^Μια σύγχρονη προσέγγιση στη γλώσσα C^^
 
 
 <a href="https://repository.kallipos.gr/handle/11419/11683" target="_blank">Η σελίδα του Kallipos για το βιβλίο.</a>

@@ -1,6 +1,7 @@
 site_name: Μια σύγχρονη προσέγγιση στη γλώσσα C
 theme:
   logo: src/images/frontcover.png
+  favicon: src/images/frontcover.ico
   name: material
   palette:
 

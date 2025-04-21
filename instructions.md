@@ -19,6 +19,7 @@ $ mkdocs serve
 ```
 ```
 ![ch4_p1.png](\src\images\ch4_p1.png){ align=center } --> Image import
+<div style="text-align: center;"><b> Σχήμα 15.1: </b><i>TUI (Text User Interface) για το GDB, ενεργοποίηση με τον διακόπτη -tui</i></div>
 ```
 ## Change font in a word to be programming style
 ```
