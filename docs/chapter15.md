@@ -304,7 +304,7 @@ point4=(+90.81,+91.70) distance from origin=129.05
 $ gdb ‐tui ./ch15_p5
 ```
 
-![ch15_p5.png](\src\images\ch15_p5-tui-cropped-brushed.png)
+![ch15_p5.png](src/images/ch15_p5-tui-cropped-brushed.png)
 
 <div style="text-align: center;"><b> Σχήμα 15.1: </b><i>TUI (Text User Interface) για το GDB, ενεργοποίηση με τον διακόπτη -tui</i></div>
 
