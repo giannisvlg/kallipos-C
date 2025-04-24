@@ -9,7 +9,7 @@ title: Το βιβλίο
 ^^Μια σύγχρονη προσέγγιση στη γλώσσα C^^
 
 
-<a href="https://repository.kallipos.gr/handle/11419/11683" target="_blank">Η σελίδα του Kallipos για το βιβλίο.</a>
+<a href="https://repository.kallipos.gr/handle/11419/11683" target="_blank">Η σελίδα του βιβλίου στον Kallipos.</a>
 
 __Τζάλλας Αλέξανδρος__  
 Αναπληρωτής Καθηγητής  
