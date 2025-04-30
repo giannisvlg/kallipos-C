@@ -4,6 +4,7 @@ title: Το βιβλίο
 # 
 
 ![frontcover.png](src/images/frontcover.png)
+![backcover.png](src/images/backcover.png)
 
 
 ^^Μια σύγχρονη προσέγγιση στη γλώσσα C^^
