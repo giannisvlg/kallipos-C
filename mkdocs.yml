@@ -93,7 +93,7 @@ plugins:
        draggable: false
        skip_classes:
          - custom-skip-class-name
-       auto_themed: false
+       # auto_themed: false
        auto_caption: false
        caption_position: bottom
        background: none

@@ -210,11 +210,13 @@ ID=304, NAME=Vivi
 
 ```
 Inorder traversal
- 1  2   3   5   7   8   9   11  16  22
+ 1   2   3   5   7   8   9   11  16  22
+
 Preorder traversal
- 5  3   1   2   16  8   7   9   11  22
+ 5   3   1   2   16  8   7   9   11  22
+
 Postorder traversal
- 2  1   3   7   11  9   8   22  16  5
+ 2   1   3   7   11  9   8   22  16   5
 ```
 ## 10.6 Ασκήσεις
 
