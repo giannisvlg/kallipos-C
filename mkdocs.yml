@@ -2,6 +2,8 @@ site_name: Μια σύγχρονη προσέγγιση στη γλώσσα C
 theme:
   logo: src/images/frontcover.png
   favicon: src/images/frontcover.ico
+  icon:
+    repo: fontawesome/brands/github
   name: material
   palette:
 
@@ -76,8 +78,11 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+# repo_url: https://github.com/giannisvlg/kallipos-C
+# repo_name: giannisvlg/kallipos-C
+
+# extra_javascript:
+#   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
 
 plugins:
     - search
